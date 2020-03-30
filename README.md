@@ -74,7 +74,7 @@ In the appropriate packages create the following:
    private String name;
 ```   
 ## Create the Dao
-  * Create an **interface** named **PersonDao.java**
+  * Create an **interface** named **PersonDao.java** and annotate with **@Dao**
   * Add the following sql/java code:
 ```
 @Insert
