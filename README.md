@@ -1,5 +1,27 @@
 # CSCI370-Lab_06
-Lab for Room Database
+## Lecure ##
+Last week we went over SharedPreference and how that was a good way to store **key/value** unstructured data. Another way to store unstructured data is with the use of the file system utilizing Java File I/O. I am sure everyone is familiar with this kind of data storage, so we will skip it for lab purposes. This week we are going to concentrate on utilizing the Room Database to store structured data.
+
+Structured data is:
+* Structured data refers to any data that resides in a fixed field within a record or file. This includes data contained in relational databases and spreadsheets.
+* High degree of organizaion
+* Searchable is simple
+
+Relational databases are excellent ways to store structured data. Besides the easy and effeciency they offer in writing, storing, and retrieving data, they also allow **Contraints** to be placed on the data.
+
+Constraints: Rules enforced on data columns to ensure the **integrity, accuracy, and reliability** of the data.
+Common Constraints:
+* NOT_NULL - Does not allow the field to be NULL
+* Default - Assigns a default value if none was provided
+* Unique - Ensures the value is unique for that given column
+* Foreign Key - Uniquely identified to another table/row
+* Primary Key - Unique identifier for that row
+
+
+
+
+
+## Lab for Room Database ##
 
 Android comes standard with an SQLite relational database, however working with the common libraries surrounding this can be quite cumbersome with lots of boilerplate code to write. Android developers are currently working on an improved API and abstraction layer that makes sending data in and out of the SQLite database "easy". 
 
