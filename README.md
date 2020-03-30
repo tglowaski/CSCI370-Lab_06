@@ -17,9 +17,8 @@ Common Constraints:
 * Foreign Key - Uniquely identified to another table/row
 * Primary Key - Unique identifier for that row
 
-
-
-
+## Additional Reading ##
+Review [Room Database](https://developer.android.com/training/data-storage/room) prior to starting the Lab.
 
 ## Lab for Room Database ##
 
