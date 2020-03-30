@@ -24,7 +24,6 @@ Review [Room Database](https://developer.android.com/training/data-storage/room)
 
 Android comes standard with an SQLite relational database, however working with the common libraries surrounding this can be quite cumbersome with lots of boilerplate code to write. Android developers are currently working on an improved API and abstraction layer that makes sending data in and out of the SQLite database "easy". 
 
-[**Good Overview Resouce**](https://developer.android.com/training/data-storage/room/index.html)
 
 ## Problem
 This lab will have you create a database, an entity class to represent our data, a dao to transport the data to and from the database, related AsyncTask classes to perform the database operations, and simple layout/activities to interact with our data layer. Databases usually will have more than one table, but the database will only contain one table to simplify the learning process. The database will contain a **Person** table with only one field **name**. We will write names to the database and retrieve all the names. This will require one **Dao** with two SQL statements. One **insert** and one **query
