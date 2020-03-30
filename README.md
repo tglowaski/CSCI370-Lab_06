@@ -66,7 +66,7 @@ Create packages to organize your classes. There are several methods of organizat
 ### Create the classes
 In the appropriate packages create the following:
 ## Create the Entity class
-  * Create **Person.java** and mark it with the **@Entity** annotation. Add the following attributes and make appropriate getters/setters
+  * Create **Person.java** and mark it with the **@Entity** annotation (This is done above the public class Person line). Add the following attributes and make appropriate getters/setters
   ```
    @PrimaryKey(autoGenerate = true)
    private int id;
