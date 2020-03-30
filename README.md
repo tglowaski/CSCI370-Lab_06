@@ -41,7 +41,8 @@ First, it helps to cover some of the database jargon that might be covered.
 ## Steps
 ### Add dependencies:
 * Add the following dependencies in the app:gradle file:
-```def room_version = "2.2.5"
+```
+  def room_version = "2.2.5"
 
   implementation "androidx.room:room-runtime:$room_version"
   annotationProcessor "androidx.room:room-compiler:$room_version" // For Kotlin use kapt instead of annotationProcessor
